@@ -53,6 +53,41 @@ main {
     width: 100%;
 }
 
+#content {
+  
+    margin: 0 auto;
+    width: 480px;
+    height: 50px;
+    display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.item {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    height: 48px;
+    width:35px;
+    color:green;
+    background: white;
+    margin:5px;
+       
+}
+.item:nth-child(5) {
+    flex-grow:1 ;
+    margin-bottom:75px ;
+         
+}
+ .centro {
+
+     border-left: 1px solid red;
+    border-radius:20px
+    
+    
+}
+
 form input {
     height: 45px;
     width: 100%;
@@ -61,6 +96,17 @@ form input {
     border-right: white;
     outline: 0;
     padding-left: 13px;
+}
+
+.form-horizontal {
+    height: 45px;
+    width: 100%;
+    border: 1px solid #dfe1e5;
+    border-left: #dfe1e5;
+    border-right: #dfe1e5;
+    outline: 0;
+    padding-left: 13px;
+    
 }
 
 .lupa {
