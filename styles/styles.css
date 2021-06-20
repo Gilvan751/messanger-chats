@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+}
+
+:root {
+    --main-bg-color: #5f6368;
+    --sec-bg-color: #f3f3f3;
+    --ter-bg-color: #eaeff0;
+    --linha-color :#dfe1e5;
+}
+
+/* Estilização do componente */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    color: white;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.icons:hover {
+    box-shadow: 0px 0px 5px #d3d3d4;
+    border-radius: 20px;
+}
+
+
+.icons {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+}
+
+.container2 form {
+    width: 100%;
+}
+
+form input {
+    height: 45px;
+    width: 100%;
+    border: 1px solid #dfe1e5;
+    border-left: white;
+    border-right: white;
+    outline: 0;
+    padding-left: 13px;
+}
+
+.lupa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    border-left: 1px solid var(--linha-color);
+    border-bottom: 1px solid var(--linha-color);
+    border-top: 1px solid var(--linha-color);
+    border-top-left-radius:50%; 
+    border-bottom-left-radius: 50%;
+}
+
+.teclado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    border-right: 1px solid var(--linha-color);
+    border-bottom: 1px solid var(--linha-color);
+    border-top: 1px solid var(--linha-color);
+    border-top-right-radius:50%; 
+    border-bottom-right-radius: 50%;
+    cursor: pointer;
+}
+
+.botao {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 350px;
+    margin-top: 30px;
+}
+
+.botao input {
+    color: var(--main-bg-color);
+    padding-left: 0;
+    font-size: 11pt;
+    width: 142px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.botao input:hover {
+    box-shadow: 0px 0px 5px #d3d3d4;}
