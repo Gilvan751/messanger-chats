@@ -3,9 +3,10 @@
     margin: 0;
     padding: 0;
 }
+@import url(https://www.db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text);
 
 body {
-    font-family: Arial;
+    font-family:'SF Pro Text', Arial;
     flex-direction: column;
     display: flex;
     height: 100vh;
@@ -25,6 +26,16 @@ main {
     align-items: center;
     height: 60vh;
     color: white;
+}
+p {
+    font-family: 'SF Pro Text' Arial, Helvetica, sans-serif;
+ font-size: 17px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 20px;
+letter-spacing: -0.6499999761581421px;
+text-align: left;
+
 }
 
 .container2 {
@@ -57,11 +68,13 @@ main {
   
     margin: 0 auto;
     width: 480px;
-    height: 50px;
+    height: 500px;
     display: flex;
    flex-wrap: nowrap;
    justify-content: space-between;
    align-items: center;
+   margin-bottom: 100px;;
+
    
 }
 .item {
@@ -70,7 +83,6 @@ main {
     flex-basis: auto;
     height: 48px;
     width:35px;
-    color:green;
     background: white;
     margin:5px;
        
@@ -80,14 +92,7 @@ main {
     margin-bottom:75px ;
          
 }
- .centro {
-
-     border-left: 1px solid red;
-    border-radius:20px
-    
-    
-}
-
+ 
 form input {
     height: 45px;
     width: 100%;
@@ -152,4 +157,82 @@ form input {
 }
 
 .botao input:hover {
-    box-shadow: 0px 0px 5px #d3d3d4;}
+    box-shadow: 0px 0px 5px #d3d3d4;
+}
+span {
+    background: #0584FE;
+    height: 22px;
+   width: 3px;
+   left: 12px;
+   top: 7px;
+  border-radius: 1px;
+  
+
+}
+.form-horizontal__2 {
+    height: 45px;
+    width: 100%;
+    border: 1px solid #dfe1e5;
+    border-left: #dfe1e5;
+    border-right: #dfe1e5;
+    outline: 0;
+    padding-left: 13px;
+   
+}
+
+#content1 {
+ 
+    margin: 0 auto;
+    width: 600px;
+    height: 500px;
+    display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 100px;;
+
+   
+}
+.item1 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    height: 30px;
+    width:20px;
+   
+    margin:5px;
+    
+
+       
+}
+.item1:nth-child(5) {
+    flex-grow:4 ;
+         
+}
+.form {
+    
+    height: 30px;
+    width: 100%;
+    outline: 0;
+    padding-left: 13px;
+    
+}
+.lupa1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;   
+    border-bottom: 1px solid var(--linha-color);
+    border-top: 1px solid var(--linha-color);
+   
+}
+.lupa3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;   
+    border-bottom: 1px solid var(--linha-color);
+    border-top: 1px solid var(--linha-color);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
